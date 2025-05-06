@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Regar - Tech Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Manish Regar</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#abilities">Abilities</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Manish Regar's World!</h1>
+            <p>Tech Enthusiast | Innovator | Honest Solutions</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi! I’m <strong>Manish Regar</strong>, a 14-year-old tech enthusiast from Pune, Maharashtra, born on February 12, 2011. Originally from a small village in Rajasthan, I’m in Class 9 and passionate about exploring the digital world. I taught myself tech skills from a young age, and I live by one rule: <strong>Honesty is the Best Policy</strong>.</p>
+        <p>I’m dedicated to helping people and businesses thrive online, whether it’s through building sleek websites, boosting social media, or offering affordable tech solutions. My journey from a village to the tech scene has taught me resilience and trust. When I’m not coding, I’m learning new skills and dreaming of a world where tech empowers everyone.</p>
+        <p><strong>Why Choose Me?</strong> I’m reliable, affordable, and committed to your success. You get tech expertise, honesty, and a partner who cares.</p>
+        <p><strong>My Mission</strong>: Make technology accessible and impactful for all.</p>
+        <p><strong>My Interests</strong>: Tech innovation, helping others, and constant growth.</p>
+        <p class="made-by">Made by Manish Regar</p>
+    </section>
+
+    <!-- Abilities -->
+    <section id="abilities" class="section">
+        <h2>My Abilities</h2>
+        <div class="ability-grid">
+            <div class="ability-card">
+                <h3>Hacking & Bug Finding</h3>
+                <p>I find price glitches and vulnerabilities in e-commerce systems, ethically showing how they can be exploited and providing fixes.</p>
+            </div>
+            <div class="ability-card">
+                <h3>Website Development</h3>
+                <p>I build custom, animated, user-friendly websites that work seamlessly on all devices.</p>
+            </div>
+            <div class="ability-card">
+                <h3>OTP Services</h3>
+                <p>I offer fast, secure OTPs for any app, with single or bulk options at low prices.</p>
+            </div>
+            <div class="ability-card">
+                <h3>Social Media Growth</h3>
+                <p>I boost your presence on Instagram, Facebook, Telegram, and more with likes, followers, and accounts.</p>
+            </div>
+            <div class="ability-card">
+                <h3>Premium Subscriptions</h3>
+                <p>I provide affordable access to YouTube Premium, Discord Nitro, and more.</p>
+            </div>
+        </div>
+        <p class="made-by">Made by Manish Regar</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+        <h2>My Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Website Development</h3>
+                <p>Custom, animated, mobile-responsive websites. <br> <strong>Price</strong>: Free for this project. <br> <strong>Why Me?</strong> Professional sites at low costs.</p>
+            </div>
+            <div class="service-card">
+                <h3>Bug Finding & Ethical Hacking</h3>
+                <p>Identify price glitches and vulnerabilities with fixes. <br> <strong>Price</strong>: Custom quotes. <br> <strong>Why Me?</strong> Honest, reliable solutions.</p>
+            </div>
+            <div class="service-card">
+                <h3>OTP Services</h3>
+                <p>Fast, secure OTPs. <br> Any App: ₹10/- ($0.12) <br> Telegram/WhatsApp: ₹76/- ($0.88) <br> Bulk: Contact for quotes. <br> <strong>Why Me?</strong> Quick and affordable.</p>
+            </div>
+            <div class="service-card">
+                <h3>Social Media Boosts</h3>
+                <p>Grow Instagram, Facebook, Telegram. <br> Likes/Comments: ₹0.50/- <br> IG Accounts: ₹10/- ($0.12) <br> <strong>Why Me?</strong> Safe, fast growth.</p>
+            </div>
+            <div class="service-card">
+                <h3>Premium Subscriptions</h3>
+                <p>YouTube Premium (1 Month): ₹30/- ($0.35) <br> Discord Nitro: ₹50/- ($0.60) <br> <strong>Why Me?</strong> Cheaper, reliable.</p>
+            </div>
+            <div class="service-card">
+                <h3>Other Social Media Help</h3>
+                <p>Custom solutions like content ideas. <br> <strong>Price</strong>: Varies. <br> <strong>Why Me?</strong> Flexible and creative.</p>
+            </div>
+        </div>
+        <p><strong>Payment Options</strong>: UPI, Wallet, Gift Cards, USD, Crypto. <br> <strong>How to Start</strong>: Message me, pay upfront, and I’ll deliver fast!</p>
+        <p class="made-by">Made by Manish Regar</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p><strong>Our support system is top-notch, available 24×7!</strong></p>
+        <ul>
+            <li><strong>Call/Message/WhatsApp (24×7)</strong>: +91 9371010561</li>
+            <li><strong>Support (WhatsApp/Call, 6 AM–3 AM)</strong>: +91 8421210561</li>
+            <li><strong>Queries (Call)</strong>: +91 7835944185</li>
+            <li><strong>Emails (24×7)</strong>:
+                <ul>
+                    <li>ask.manish.regar@gmail.com</li>
+                    <li>manishregar@flash.co</li>
+                    <li>manishregar365@gmail.com</li>
+                </ul>
+            </li>
+            <li><strong>YouTube</strong>: <a href="https://www.youtube.com/@ManishCountryBall" target="_blank">ManishCountryBall</a></li>
+            <li><strong>Instagram</strong>: <a href="https://www.instagram.com/manish_regar369" target="_blank">@manish_regar369</a></li>
+            <li><strong>Reddit</strong>: <a href="https://www.reddit.com/u/ManishRegarOfficial/s/RDbhyaNt5P" target="_blank">ManishRegarOfficial</a></li>
+            <li><strong>Facebook</strong>: <a href="https://www.facebook.com/share/19KwXKGPdd/" target="_blank">Manish Regar</a></li>
+            <li><strong>Telegram</strong>: <a href="https://t.me/Mr_manish_regar" target="_blank">@Mr_manish_regar</a></li>
+        </ul>
+        <p class="made-by">Made by Manish Regar</p>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot">
+        <div id="chat-header">Chat with ManishBot</div>
+        <div id="chat-body"></div>
+        <input id="chat-input" type="text" placeholder="Ask me anything...">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
